@@ -1,0 +1,111 @@
+/*This is a comment in css; A single line comment */
+/*
+This is a multiple line comment in css
+*/
+.dropdownbutton{
+   background-color: red;
+   color: white;
+   padding: 13px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+
+.dropdown-menu{
+   /* display: none; */
+   position:absolute;
+   background-color: lightblue;
+   min-width:150px;
+}
+
+.dropdown-menu{
+   color: black;
+   passing: 11px 150px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-menu a:hover{
+   background-color: white;
+}
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+.dropdown:hover .dropdownbutton {
+   background-color: grey;
+}
+body{
+   background-color:green;
+
+}
+
+table, th, td{
+   border:2px solid;
+   width: 60%;
+   border-collapse: collapse;
+}
+
+th{
+   height: 50px
+}
+/*
+td{
+   text-align: center
+}
+th, td{
+   text-align: center;
+   padding: 10px;
+}
+tr:hover{
+   background-color: blue;
+}
+*/
+h1{
+   border-style: solid dashed double dotted;
+   border-width: 6px 10px 5px 11px 22px medium thick;
+   border-color: purple blue green red;
+   padding: 40px 10px 20px 30px;
+   width: 50px;
+   outline-style: solid dashed 
+   
+   
+   
+}
+h2{
+   background-color: green;
+   text-align:left
+   /*
+   text-decoration: none;
+   text-transform: lowercase;
+   text-indent:30px;
+   letter-spacing: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic, oblique;
+   font-weight: bold, normal;
+   font-size: 50px, 4em;
+   */
+   
+}
+p{
+   margin-left: 50px
+   margin-top: 50px
+   margin-right: 50px
+   margin butto:50px
+or margin: 50px 50px 50px 50px
+}
+#welcome{
+   background-color:green
+
+
+}
+
+.heading {
+   color: blue
+
+}
+/*
+* {
+   color: purple
+}
+*/
+
